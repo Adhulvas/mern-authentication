@@ -1,0 +1,11 @@
+.single-product-container {
+  margin-top: 100px;
+  padding: 0;
+}
+
+@media (max-width: 300px) {
+  .single-product-container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
