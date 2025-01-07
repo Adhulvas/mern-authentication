@@ -23,7 +23,7 @@ function ProductList() {
     })
     .catch((err)=>{
       if(err.response.data.message==='unauthorized user') {
-
+        navigate('/')
       }
     })
   },[])
